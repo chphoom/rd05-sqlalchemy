@@ -96,5 +96,3 @@ with Session(engine) as session:
     result = session.execute(stmt, {"y": 6})
     for row in result:
         print(f"x: {row.x}  y: {row.y}")
-
-# Working with Database Metadata
